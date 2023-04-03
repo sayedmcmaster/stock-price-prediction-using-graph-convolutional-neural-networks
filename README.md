@@ -1,12 +1,12 @@
 # stock-price-prediction-using-graph-convolutional-neural-networks
 
 1. Steps to execute the project
-1.1 Make sure the data folder has the the corresponding data file mentioned in the code
+1.1 Make sure the data folder has the the corresponding data files mentioned in the code
 1.2. Then using Jupyter Notebook execute the code.
-1.3. It is important to see if the required software is there or not. Check the software requirements section
+1.3. It is important to see if the required software and modules are there or not. Check the software requirements section
  
 
-2. Important Code Files
+**2. Important Code Files**
 
 **simplest_model_gcn_mlp_only-stock-prediction-cleaned.ipynb**
 -- It used a simple GCN and MLP layer to predict prices. It works on Pearson, Spearman, and kendall tau based stock price prediction. Also, plots and compares the performance. I will integrating financial news based prediction into this same file to compare all in one file.
@@ -33,9 +33,10 @@ Later I took this code to integrate into **yfinance_find-stock-tickers-in-news-a
 
 Note: My Explanation of the code can be see on: https://www.youtube.com/playlist?list=PLUA7SYgJYDFoAmJSyCXtKwA1uw2ErFgEo
 
+**3. Data Files**
+-- Data files are kept in the data folder. The code usually loaded data in the beginning of the code.
 
-
-**3. Software Requirements**
+**4. Software/Tools Requirements**
 Anaconda Navigator (optional, I used this)
 Jupyter Notebook or a tool that can execute ipynb files
 Python <= 3.8, latest versions may not work as some libraries need earlier versions
