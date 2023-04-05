@@ -36,13 +36,24 @@ Note: My Explanation of the code can be see on: https://www.youtube.com/playlist
 **3. Data Files**
 -- Data files are kept in the data folder. The code usually loaded data in the beginning of the code.
 
+
 **4. Software/Tools Requirements**
+
 Anaconda Navigator (optional, I used this)
+
 Jupyter Notebook or a tool that can execute ipynb files
+
+
 Python <= 3.8, latest versions may not work as some libraries need earlier versions
+
 Steller Graph, latest version can be used
+
 Tensorflow
+
 Keras
+
 Torch/Pytorch optionally may be needed
+
 CV2 or similar
+
 yfinance module
