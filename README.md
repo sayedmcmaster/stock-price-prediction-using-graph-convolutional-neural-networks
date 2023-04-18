@@ -1,3 +1,5 @@
+By Sayed Ahmed
+
 # stock-price-prediction-using-graph-convolutional-neural-networks
 
 1. Steps to execute the project
