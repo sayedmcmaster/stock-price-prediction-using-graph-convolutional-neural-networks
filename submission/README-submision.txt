@@ -9,6 +9,13 @@ By Sayed Ahmed (400290668)
 1.2. Then using Jupyter Notebook execute the code.
 
 1.3. It is important to see if the required software and modules are there or not. Check the software requirements section
+
+Note:
+The folder: execution-pdfs will have some pdfs created with the ipynb execution outputs. These can also be found at:
+
+https://github.com/sayedmcmaster/stock-price-prediction-using-graph-convolutional-neural-networks/tree/main/submission/execution-pdfs
+
+
  
 **4. Software/Tools Requirements**
 
@@ -33,15 +40,20 @@ yfinance module
 
 
 Data Files:
-
+[Dataset adjustments, and aligning data to the project and model took a significant amount of time and efforts (to start with)]
 data/per-day-fortune-30-company-stock-price-data.csv
 
 data/yahoonewsarchive/News_Yahoo_stock.csv
 
+------
 Previously used data files i.e. dataset
 ./data/stock-price--all-merged.csv (still may work although need more adjustments for good/correct results)
 ./data/small-stock-price--all-merged.csv
 
+The folder: C:\my_works_2021_07_25\hd-thing\mcmaster\meng\747\project\submission\archive\stock_market_data\nasdaq\csv has individual stock data that was used to create stock-price--all-merged.csv.
+
+Althugh these data can be used and may work or may be made to work wit minor adjustments, I no longer used these data in the final stage.
+-----
 
 
 **2. Important Code Files**
@@ -75,10 +87,21 @@ Later I took this code to integrate into **yfinance_find-stock-tickers-in-news-a
 **simplest_model_gcn_mlp_only-stock-prediction-cleaned.ipynb**
 
 
-Note: My Explanation of the code can be see on: https://www.youtube.com/playlist?list=PLUA7SYgJYDFoAmJSyCXtKwA1uw2ErFgEo
+Note: My Explanation (video) of the code can be seen on: https://www.youtube.com/playlist?list=PLUA7SYgJYDFoAmJSyCXtKwA1uw2ErFgEo
+
+Most steps, most codes, and most results are explained there.
+
 
 **3. Data Files**
 -- Data files are kept in the data folder. The code usually loaded data in the beginning of the code.
+
+
+Github folder: https://github.com/sayedmcmaster/stock-price-prediction-using-graph-convolutional-neural-networks/tree/main/submission will have the submitted version of the code and data.
+
+Github location: https://github.com/sayedmcmaster/stock-price-prediction-using-graph-convolutional-neural-networks may have more code and data.
+
+Execution and Outputs are kept as PDFs at:
+https://github.com/sayedmcmaster/stock-price-prediction-using-graph-convolutional-neural-networks/tree/main/submission/execution-pdfs
 
 
 
